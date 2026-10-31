@@ -1,0 +1,27 @@
+# Sırlar
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Araç önbellekleri ve raporlar
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Model ağırlıkları
+*.pt
+
+# Veri seti zip'leri: yanlışlıkla `git add .` ile açık repoya gitmesin
+*.zip
